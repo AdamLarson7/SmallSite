@@ -1,0 +1,145 @@
+html{
+    /*background-color: #0f0f0f;*/
+    background-image:url(backgroundimgs/BG11.jpg) ;
+    background-size: 50%;
+    padding:0;
+    padding:0;
+    margin:0;
+}
+
+body{
+    padding:0;
+    margin:0;
+    text-align: center;
+    margin-top: 160px;
+    
+}
+
+a {
+    color: white;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 20px;
+    font-size: 23;
+    font-family: Balsamiq Sans;
+}
+
+.navbar{
+    overflow: hidden;
+    background-color: #202020;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    align-content: left;
+    z-index: 10;
+}
+
+.navbar a{
+    display: block;
+    text-align: center;
+    padding: 20xp 30px;
+    text-decoration: none;
+    z-index: 10;
+    
+}
+
+.navbar a:hover {
+    background: #ffffff;
+    color: #202020;
+    z-index: 10;
+}
+
+
+.album{
+    position:absolute;
+    color:white;
+    width:265px;
+    text-align: center;
+    margin-left: -132.5px;
+    margin-top: -132.5px;
+    font-family: Balsamiq Sans;
+    z-index: 1;
+    top: 20%;
+    left: 50%; 
+    font-size: 23
+}
+
+h3{
+    position:absolute;
+    color:white;
+    width:240px;
+    text-align: center;
+    margin-left: -120px;
+    margin-top: -120px;
+    font-family: Balsamiq Sans;
+    z-index: 1;
+    top: 180%;
+    left: 50%; 
+    font-size: 20;
+}
+
+/*.mixtape{
+    position:relative;
+    color:white;
+    width:200px;
+    text-align: center;
+    margin-left: -100px;
+    margin-top: -100px;
+    font-family: Balsamiq Sans;
+    z-index: -1;
+    top: 27%;
+    left: 50%; 
+    display: block;
+}
+
+.mixtapeimgs{
+    z-index: -1;
+    position: inherit;
+    top:24%;
+    margin: 20px;
+    display: inline-block;
+    transition: transform .2s ease-in-out;
+    transform-origin: center;
+} */
+
+
+.allimgs{
+    z-index: 1;
+    position: inherit;
+    top: 13%;
+    margin:50px;
+    display: inline-block;
+    transition: filter .2s ease-in, transform .2s ease-in-out;
+    transform-origin: center;
+    filter: grayscale(100%);
+}
+
+
+
+.allimgs:hover{
+transform: scale(1.15); 
+filter:grayscale(0%);
+}
+
+
+.link{
+     z-index: 1;
+    position: inherit;
+    top: 13%;
+    display: inline-block;
+    transition: transform .2s ease-in-out;
+    transform-origin: center;
+    height="300px";
+    width="300px";
+}
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap 10px;
+    justify-content: center;
+    z-index: -1;
+}

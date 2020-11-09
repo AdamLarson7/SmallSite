@@ -1,0 +1,86 @@
+html{
+    /*background-color: #0f0f0f;*/
+    background-image:url(backgroundimgs/BG11.jpg) ;
+    background-size: 50%;
+    padding:0;
+    margin:0;
+}
+
+body{
+    padding:0;
+    margin:0;
+    
+}
+    
+a {
+    color: white;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 20px;
+    font-size: 23;
+    font-family: Balsamiq Sans;
+}
+
+.navbar{
+    overflow: hidden;
+    background-color: #202020;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    align-content: left;
+}
+
+.navbar a{
+    display: block;
+    text-align: center;
+    padding: 20xp 30px;
+    text-decoration: none;
+    
+}
+
+.navbar a:hover {
+    background: #ffffff;
+    color: #202020;
+    z-index: 10;
+}
+
+h1{
+    position:absolute;
+    color: white;
+    top: 22%;
+    left:50%;
+    width: 230px;
+    text-align: center;
+    margin-left: -115px;
+    margin-top: -115px;
+    font-family: Balsamiq Sans;
+    z-index: -1;
+    font-size: 50;
+    
+    
+}
+
+img{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 38%;
+    margin-left: -150px;
+    margin-top: -150px;
+    left:50%;
+    z-index: -1;
+} 
+
+p{
+    position:relative;
+    top:575px;
+    margin-left: 25%;
+    margin-right:25%;
+    margin-bottom:100px;
+    font-size:25;
+    z-index: -1;
+    font-family: Balsamiq Sans;
+    color:white;
+    text-align: center;
+} 

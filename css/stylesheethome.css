@@ -1,0 +1,63 @@
+html{
+    padding:0;
+    margin:0;
+}
+
+#Video{
+    object-fit: cover;
+    width: 1903;
+    height: 1000;
+    position: relative;
+    z-index: -1;
+}
+
+body{
+    padding:0;
+    margin:0;
+}
+
+h1{
+    color: white;
+    position:fixed;
+    top:50%;
+    left:50%;
+    font-size: 55pt;
+    font-family: Balsamiq Sans;
+    width: 250px;
+    margin-left: -125px;
+    margin-top: -125px;
+    text-shadow: 3px 3px 5px #000000;
+    text-align: center;
+}
+
+a{
+    color: white;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 20px;
+    font-size: 23;
+    font-family: Balsamiq Sans;
+}
+
+.navbar{
+    overflow: hidden;
+    background-color: #202020;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    align-content: left;
+}
+
+.navbar a{
+    display: block;
+    text-align: center;
+    padding: 20xp 30px;
+    text-decoration: none;
+    
+}
+
+.navbar a:hover {
+    background: #ffffff;
+    color: #202020;
+}
